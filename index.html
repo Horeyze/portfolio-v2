@@ -60,6 +60,9 @@ a{color:inherit;text-decoration:none}
 
 /* rows */
 .rows{display:flex;flex-direction:column;gap:var(--row-gap)}
+.sub-hd{display:flex;align-items:baseline;gap:16px;flex-wrap:wrap;margin:10px 0 2px}
+.sub-hd .cn{font-family:var(--display);font-weight:700;font-size:clamp(17px,2vw,21px);letter-spacing:1px}
+.sub-hd .en{font-size:11px;color:var(--grey);letter-spacing:3px;text-transform:uppercase}
 .row{display:flex;gap:var(--row-gap);align-items:flex-start;flex-wrap:wrap}
 .row .it{min-width:0;cursor:zoom-in;position:relative}
 .row .it img{transition:opacity .25s}
@@ -241,12 +244,13 @@ a{color:inherit;text-decoration:none}
           <div class="it"><img src="assets/img/a9-3.jpg" alt="AI 制作 09-3" loading="eager"></div>
         </div>
 
+        <div class="sub-hd"><span class="cn">过往项目迭代过程展示</span><span class="en">Iteration Process</span></div>
         <div class="row r-1-1">
           <div class="it"><img src="assets/img/a10-1.jpg" alt="AI 制作 10-1" loading="eager"></div>
           <div class="it"><img src="assets/img/a10-2.jpg" alt="AI 制作 10-2" loading="eager"></div>
         </div>
 
-        <div class="row r-1-1">
+        <div class="row r-1-2">
           <div class="it"><img src="assets/img/a11-1.jpg" alt="AI 制作 11-1" loading="eager"></div>
           <div class="it"><img src="assets/img/a11-2.png" alt="AI 制作 11-2" loading="eager"></div>
         </div>
